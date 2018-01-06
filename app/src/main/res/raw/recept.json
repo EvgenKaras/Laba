@@ -1,0 +1,53 @@
+[
+  {
+    "id":0,
+    "name":"Пельмени",
+    "instruction":"Сварить пельмени",
+    "imgPath":333,
+    "rating":5,
+    "id_cat":0,
+    "descr":"Описание",
+    "userRating":0
+  },
+  {
+    "id":1,
+    "name":"Пельмени1",
+    "instruction":"Сварить пельмени1",
+    "imgPath":333,
+    "rating":5,
+    "id_cat":1,
+    "descr":"Описание",
+    "userRating":0
+  },
+  {
+    "id":2,
+    "name":"Пельмени2",
+    "instruction":"Сварить пельмени2",
+    "imgPath":333,
+    "rating":5,
+    "id_cat":2,
+    "descr":"Описание",
+    "userRating":0
+  },
+  {
+    "id":3,
+    "name":"Пельмени3",
+    "instruction":"Сварить пельмени3",
+    "imgPath":333,
+    "rating":5,
+    "id_cat":3,
+    "descr":"Описание",
+    "userRating":0
+  },
+  {
+    "id":4,
+    "name":"Пельмени4",
+    "instruction":"Сварить пельмени4",
+    "imgPath":333,
+    "rating":5,
+    "id_cat":4,
+    "descr":"Описание",
+    "userRating":0
+  }
+
+]

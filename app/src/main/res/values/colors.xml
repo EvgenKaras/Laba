@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="zvezda">#fde910</color>
+    <color name="colorTable">#eeeeee</color>
+    <color name="ser1">#e3e8e6</color>
+    <color name="ser2">#cccccc</color>
+    <color name="ser3">#b3b3b3</color>
+    <color name="serii">#333333</color>
+    <color name="red1">#800000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

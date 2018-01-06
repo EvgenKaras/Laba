@@ -1,0 +1,52 @@
+[
+  {
+    "id":0,
+    "name":"Блюда из курицы",
+    "id_category":0
+  },
+  {
+    "id":1,
+    "name":"Блюда из утки",
+    "id_category":0
+  },
+  {
+    "id":2,
+    "name":"Макароны",
+    "id_category":1
+  },
+  {
+    "id":3,
+    "name":"Блюда из картофеля",
+    "id_category":1
+  },
+  {
+    "id":4,
+    "name":"Щи",
+    "id_category":2
+  },
+  {
+    "id":5,
+    "name":"Борщ",
+    "id_category":2
+  },
+  {
+    "id":6,
+    "name":"Торты",
+    "id_category":3
+  },
+  {
+    "id":7,
+    "name":"Кексы",
+    "id_category":3
+  },
+  {
+    "id":8,
+    "name":"Запеченная рыба",
+    "id_category":4
+  },
+  {
+    "id":9,
+    "name":"Жареная рыба",
+    "id_category":4
+  }
+]

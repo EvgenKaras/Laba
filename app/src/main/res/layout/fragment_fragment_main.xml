@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.recipes.Fragments.FragmentMain"
+    style="@style/razmer">
+<LinearLayout style="@style/orientation">
+
+    <RelativeLayout
+        style="@style/strImg"
+        android:clickable="true">
+
+        <ImageView
+            style="@style/ImgMain"
+            android:clickable="true"
+            android:src="@mipmap/ic_main" />
+
+        <TableRow style="@style/strTextImg">
+
+            <TextView
+                android:id="@+id/all_recipes"
+                style="@style/TextImgMAIN"
+                android:clickable="true"
+                android:text="@string/VSE_item" />
+        </TableRow>
+    </RelativeLayout>
+    <TableRow style="@style/row"></TableRow>
+    <TableRow
+        android:id="@+id/mainIZB"
+        style="@style/rowIZBR"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/NameBlydo"
+            style="@style/Izbr"
+            android:text="@string/Izbrannoe_item" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            style="@style/heart"
+            android:src="@drawable/ic_favorite_border_black_24dp"/>
+    </TableRow>
+    <TableRow style="@style/row"></TableRow>
+   <TableLayout style="@style/Tablelayout">
+
+       <TableRow style="@style/razmer">
+
+           <Button
+               android:id="@+id/buttonSearch"
+               style="@style/but1"
+               android:text="@string/search_item" />
+
+           <Button
+               android:id="@+id/buttonListShop"
+               style="@style/but2"
+               android:clickable="true"
+               android:text="@string/list_shop_item" />
+       </TableRow>
+   </TableLayout>
+    <ImageView
+        style="@style/apple"
+        android:src="@mipmap/ap"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="75dp">
+
+
+    <TableRow
+        android:id="@+id/first"
+        style="@style/ListRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+        <EditText
+            android:id="@+id/idField"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            style="@style/IcImage1"
+
+            android:src="@mipmap/ic_mak_kv" />
+
+        <RelativeLayout style="@style/maxHeight">
+
+            <TextView
+                android:id="@+id/NameBlydo"
+                style="@style/Header"
+                android:layout_height="30dp"
+                android:text="Макароны с сыром" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/miniText"
+                android:layout_alignLeft="@+id/NameBlydo"
+                android:layout_alignStart="@+id/NameBlydo"
+                android:layout_below="@+id/NameBlydo"
+                android:layout_height="30dp"
+                android:text="сыр, макароны, масло подсолнечное, соль" />
+
+            <RatingBar
+                android:id="@+id/ratingBar_small1"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:numStars="5"
+                android:theme="@style/MyRatingBar">
+
+            </RatingBar>
+        </RelativeLayout>
+
+    </TableRow>
+</LinearLayout>

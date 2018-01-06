@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_glavnaya"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/glavnaya_item" />
+    <item
+        android:id="@+id/nav_recipes"
+        android:icon="@drawable/ic_room_service_black_24dp"
+        android:title="@string/recipes_item" />
+    <item
+        android:id="@+id/nav_shopping"
+        android:icon="@drawable/ic_local_grocery_store_black_24dp"
+        android:title="@string/shopping_item" />
+    <item
+        android:id="@+id/nav_interesting"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="@string/interesting_item" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/about_blank_fragment" />
+    </group>
+    <item android:id="@+id/FMAIN"
+        android:visible="false"/>
+</menu>

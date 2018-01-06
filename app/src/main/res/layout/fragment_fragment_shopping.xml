@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/razmer"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.recipes.Fragments.FragmentShopping">
+
+        <ListView
+            android:id="@+id/productList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_margin="20dp">
+                <ImageView
+                    android:id="@+id/buttonDelete"
+                    style="@style/delite"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_delete_24dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Добавить продукт"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary" />
+        </TableRow>
+</LinearLayout>

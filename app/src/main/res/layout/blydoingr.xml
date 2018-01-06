@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+    android:orientation="horizontal"
+    android:layout_height="50dp">
+
+
+    <TextView
+        android:id="@+id/Descr"
+        style="@style/nameBludo"
+        android:layout_weight="1"
+        android:text="Картофель - 8 шт" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/razmer"
+        android:layout_weight="5" />
+</LinearLayout>

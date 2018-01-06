@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Recipes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="E_mail_item">safronova.o1996@yandex.ru</string>
+    <string name="Number_item">Номер телефона:</string>
+    <string name="e_mail_item">E-mail:</string>
+    <string name="group_item">Группа:</string>
+    <string name="name_item">Имя:</string>
+    <string name="familiya_item">Фамилия:</string>
+    <string name="NAME_item">Оля</string>
+    <string name="call_item">Набрать студента</string>
+    <string name="numberPhone_item">8-920-868-39-23</string>
+    <string name="firstName_item">Сафронова</string>
+    <string name="GROP_item">14-МОА</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_blank_fragment">О приложении</string>
+    <string name="glavnaya_item">Главная</string>
+    <string name="interesting_item">Избранное</string>
+    <string name="recipes_item">Категории рецептов</string>
+    <string name="shopping_item">Список покупок</string>
+    <string name="HEAD_item">Лучшие рецепты мира</string>
+    <string name="RECIPES">Лучшие рецепты мира</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="list_shop_item">Список покупок</string>
+    <string name="search_item">Поиск</string>
+    <string name="Izbrannoe_item">Избранное</string>
+    <string name="VSE_item">Все рецепты</string>
+    <string name="ingredient_item">Ингредиенты</string>
+    <string name="add_ingr_item">Добавить список покупок</string>
+    <string name="cooking_item">Приготовление</string>
+    <string name="otsenka_item">Ваша оценка</string>
+    <string name="sort_item">Сортировка</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="namehint">Название..</string>
+    <string name="Cat">Категория:</string>
+    <string name="inghint">Ингредиент..</string>
+    <string name="searchbut">Искать</string>
+    <string name="addR">Добавить</string>
+    <string name="cancel">Отмена</string>
+</resources>

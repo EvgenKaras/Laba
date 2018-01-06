@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/sort"
+        style="@style/sort"/>
+    <ImageView
+        android:id="@+id/imageBL"
+        style="@style/IcImage"
+        android:src="@mipmap/ic_mak_kv"/>
+    <TextView
+        android:id="@+id/textHeader"
+        style="@style/Header" />
+    <TextView
+        android:id="@+id/textMini"
+        style="@style/miniText"
+        android:layout_alignLeft="@+id/textHeader"
+        android:layout_alignStart="@+id/textHeader"
+        android:layout_below="@+id/textHeader" />
+    <RatingBar
+        android:id="@+id/ratingBar_small1"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:theme="@style/MyRatingBar"
+        android:layout_below="@+id/textMini"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+ </LinearLayout>
+

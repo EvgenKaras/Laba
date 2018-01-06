@@ -1,0 +1,26 @@
+[
+  {
+    "id":0,
+    "id_recept":0,
+    "id_ingredient":0,
+    "countOfIngredient":1
+  },
+  {
+    "id":1,
+    "id_recept":1,
+    "id_ingredient":1,
+    "countOfIngredient":1
+  },
+  {
+    "id":2,
+    "id_recept":2,
+    "id_ingredient":2,
+    "countOfIngredient":2
+  },
+  {
+    "id":3,
+    "id_recept":3,
+    "id_ingredient":3,
+    "countOfIngredient":3
+  }
+]

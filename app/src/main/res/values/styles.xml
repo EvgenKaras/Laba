@@ -1,0 +1,284 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="MyRatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="razmer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="razmer2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+
+
+
+    <!-- nav_header_main -->
+    <style name="razmetka">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:background">@drawable/side_nav_bar</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:weightSum">1</item>
+    </style>
+    <style name="img">
+        <item name="android:layout_width">128dp</item>
+        <item name="android:layout_height">92dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+    <style name="txt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+    </style>
+
+
+
+    <!-- fragment_fragment_list -->
+    <style name="sort" parent="razmer2">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="Tablelayout" parent="razmer">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/colorTable</item>
+    </style>
+    <style name="TableRow" parent="razmer">
+        <item name="android:background">@color/colorTable</item>
+        <item name="android:minHeight">50dp</item>
+    </style>
+    <style name="ListRow" parent="razmer">
+        <item name="android:background">@color/white</item>
+        <item name="android:minHeight">60dp</item>
+    </style>
+    <style name="IcImage">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="IcImage1">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="maxHeight">
+        <item name="android:maxHeight">20dp</item>
+    </style>
+    <style name="Header" parent="razmer">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">@color/red1</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="miniText" parent="razmer">
+        <item name="android:textSize">10dp</item>
+    </style>
+    <style name="polosa">
+        <item name="android:background">@color/colorTable</item>
+        <item name="android:minHeight">1dp</item>
+    </style>
+
+
+
+    <!-- fragment_fragment_blyudo -->
+    <style name="Bludo" parent="razmer">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:minHeight">100dp</item>
+    </style>
+    <style name="ImageBludo">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">120dp</item>
+    </style>
+    <style name="StrName">
+        <item name="android:maxHeight">100dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="str">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="BigText" parent="razmer">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_span">4</item>
+    </style>
+    <style name="nameBludo" parent="razmer">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_span">2</item>
+    </style>
+    <style name="Gravity">
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+    <style name="Button">
+        <item name="android:layout_span">3</item>
+    </style>
+    <style name="opisanie" parent="BigText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="BigImage" parent="span3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="OtsenZV">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:minHeight">30dp</item>
+    </style>
+    <style name="span3">
+        <item name="android:layout_span">3</item>
+    </style>
+    <style name="otsenka" parent="razmer">
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+
+
+    <!-- fragment_fragment_main -->
+    <style name="orientation" parent="razmer">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="strImg" parent="orientation">
+        <item name="android:minHeight">150dp</item>
+        <item name="android:layout_height">160dp</item>
+    </style>
+    <style name="ImgMain" parent="razmer">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="strTextImg" parent="razmer">
+        <item name="android:layout_marginTop">110dp</item>
+    </style>
+    <style name="TextImgMAIN" parent="Gravity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/red1</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="row" parent="razmer">
+        <item name="android:minHeight">20dp</item>
+        <item name="android:background">@color/colorTable</item>
+    </style>
+    <style name="rowIZBR" parent="Gravity">
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="Izbr" parent="Gravity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/red1</item>
+    </style>
+    <style name="heart" parent="razmer2">
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="but1">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+    <style name="but2">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+    <style name="apple">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:background">@color/colorTable</item>
+    </style>
+
+
+
+    <!-- fragment_fragment_recipes-->
+    <style name="vectImg" parent="razmer">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="TextVectImg" parent="razmer">
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+
+
+    <!-- fragment_fragment_shopping-->
+    <style name="Linear" parent="Tablelayout">
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="checkbox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ingridient">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+    <style name="kg">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.06</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="price">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:inputType">number</item>
+        <item name="android:hint">цена</item>
+    </style>
+    <style name="delite">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/colorTable</item>
+
+    </style>
+</resources>
